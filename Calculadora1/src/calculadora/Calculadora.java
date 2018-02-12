@@ -2,7 +2,7 @@ package calculadora;
 
 public class Calculadora {
 
-    private int x, y, r;
+    protected int x, y, r;
 
     void sumar() {
         r = x + y;
