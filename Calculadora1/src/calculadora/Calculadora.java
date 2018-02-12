@@ -2,7 +2,9 @@ package calculadora;
 
 public class Calculadora {
 
-    protected int x, y, r;
+    protected double x;
+    
+      private double y, r;
 
     void sumar() {
         r = x + y;
@@ -10,7 +12,7 @@ public class Calculadora {
 
     void restar() {
         if (x < y) {
-            int a;
+            double a;
             a = x;
             x = y;
             y = a;
@@ -36,7 +38,7 @@ public class Calculadora {
         this.y = y;
     }
 
-    public int getR() {
+    public double getR() {
         return r;
     }
 
